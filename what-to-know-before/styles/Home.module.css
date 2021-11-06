@@ -1,0 +1,265 @@
+@import url("https://use.typekit.net/yxi2imx.css");
+.body {
+  margin-top: -2px;
+  /* padding-top: 0px; */
+  margin-left: 0px;
+  margin-right: 0px;
+  /* border-bottom: 4px solid blue; */
+  background-color: #303030;
+}
+
+.mainWrapper {
+  height: 100%;
+  margin-top: 0vw;
+  padding-top: 0px;
+  height: 5vw;
+  /* background-color: #16B8F3; */
+  /* top: 0vw; */
+}
+
+.main {
+  /* height: 100%; */
+  margin-top: 0vw;
+  align-items: left;
+  position: fixed;
+  padding-top: 0px;
+  top: 0vw;
+}
+
+.navbarHeader {
+  margin-top: -.25vw;
+  margin-bottom: 0;
+  outline: #16B8F3;
+  /* outline: 5px solid blue; */
+  background-color: #eaeaea;
+}
+
+.navbarBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  /* outline: 5px solid blue; */
+  font-size: 20px;
+  color: #303030;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 3vw;
+}
+
+.navBarItems {
+  /* outline: 5px solid blue; */
+  padding-left: 1vw;
+  padding-right: 1.75vw;
+  box-shadow: 0px 0px 0px 0px black, 1px 0px 0px 0px #303030;
+  /* FONT SIZE WEEEE */
+
+}
+
+.headerLogoBlock {
+  margin-bottom: 0px;
+  position: relative;
+  padding-top: 0px;
+  top: 0vw;
+  filter: brightness(125%);
+}
+
+.carouselSection{
+  outline: 5px solid blue;
+  height: 40vw;
+  /* margin: 0 auto; */
+}
+
+.footer {
+  height: 32%;
+  position: absolute;
+  margin: 0vw;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0vw;
+  border-top: 1px solid #eaeaea;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: #303030;
+  color: white;
+  font-family: forma-djr-deck, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.footerTitle {
+  float: left;
+  margin-left: 4vw;
+  margin-bottom: -.5vw;
+  line-height: .3vw;
+  font-size: 1.5vw;
+}
+
+.footerLines {
+  padding-left: 92vw;
+  position: relative;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 0px;
+}
+
+.secondFooterSection {
+  display: flex;
+  text-align: center;
+}
+
+.officialStuff {
+  margin-top: -.5vw;
+  margin-left: 4vw;
+  line-height: .3vw;
+  font-size: 1.5vw;
+  display: inline-block; 
+  text-align: left; 
+  width: 21%; 
+  margin-right: 1%;
+}
+
+.officialMissionBlock {
+    /* outline: 3px solid green; */
+  margin-left: -10vw;
+  padding-right: 5vw;
+}
+
+.officalParagraphLineHeight {
+  margin-top: -.5vw;
+  line-height: 1vw;
+  font-size: 1vw;
+}
+
+.officialFollowBlock {
+  /* outline: 3px solid green; */
+  margin-left: -16vw;
+}
+
+.officialFollowTitles {
+  text-align: center;
+}
+
+.officialImages {
+  display: block;
+  margin-top: -.5vw;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.officialFacebookLink {
+  width: 4vw;
+}
+
+.officialInstaLink {
+  width: 4vw;
+  margin-left: 1vw;
+}
+
+.officialSignUpBlock {
+  margin-top: -.7vw;
+  /* outline: 3px solid green; */
+  margin-right: 4vw;
+  margin-left: -14vw;
+}
+
+.officialSignUpTitle {
+  line-height: 1.8vw;
+  font-size: 1.6vw;
+}
+
+.officialSignUpForm {
+  /* outline: 3px solid green; */
+  background-color: #eaeaea;
+  border-radius: 4px;
+  width: 24vw;
+  float: left;
+}
+ .officialSignUpButton {
+   float: right;
+   margin-right: 3vw;
+   margin-top: 3vw;
+   height: 3vw;
+   width: 5vw;
+ }
+
+.officialSignUpCouple {
+  /* outline: 3px solid green; */
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+ .lastFooterText {
+   text-align: center;
+  font-size: .8vw;
+ }
+
+/* .footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+} */
+
+/* .title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  /* line-height: 1.15; */
+  /* font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description { */
+  /* line-height: 1.5; */
+  /* font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.li {
+  list-style-type : none;
+}  */
+
+/* microbio
+microbio lab
+evolution
+ecology
+ecology lab
+meterology
+meterology lab  */
