@@ -78,15 +78,12 @@ body {
 
 .navbar-items {
     padding-left: 6rem;
-    /* margin-left: 6rem; */
-    /* margin-right: .5rem; */
     margin-top: 0rem;
 
     list-style-type: none;
     overflow: hidden;
     margin: auto;
     text-align: center;
-    /* border: 2px solid green; */
 }
 
 .navbar-items li {
@@ -102,6 +99,12 @@ body {
     border-left: .5px solid black;
     border-right: .5px solid black;
     margin: auto;
+    transition: 0.3s;
+}
+
+.navbar-items a:hover {
+    background-color: #328b75;
+    color: white;
 }
 
 #movie-generator-link {
@@ -110,19 +113,33 @@ body {
 
 #new-this-week-link {
     border-left: 0px solid black;
-    /* padding-left: 0rem; */
 }
 
 #login-link {
     border-left: 1px solid black;
-    color: rgb(0, 116, 155);
+    font-weight: 500;
+}
+
+#login-link:hover {
+    background-color: #32418b;
+    color: white;
 }
 
 #register-link {
     border-right: 0px solid black;
-    color: rgb(0, 116, 155);
-    padding-right: 0rem;
+    padding-right: 1.5rem;
     margin-right: 0rem;
+    font-weight: 500;
+}
+
+#login-link:hover {
+    background-color: #32418b;
+    color: white;
+}
+
+#register-link:hover {
+    background-color: #548b32;
+    color: white;
 }
 
 #search-bar-actual {
